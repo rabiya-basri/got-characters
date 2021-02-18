@@ -18,7 +18,6 @@ class App extends Component {
       <div className="App">
         {this.state.characters.book.map((c, index) => (
           <h1 key={index}>
-            character=
             <div key={index}>
               <img src={c.image} alt="" />
               <h3>{c.name}</h3>
